@@ -20,7 +20,7 @@ int main()
             else if(tmp[i]==')'){
                 if(v.empty()){
                     flag = 1;
-                    continue;
+                    break;
                 }
                 v.pop_back();
             }
